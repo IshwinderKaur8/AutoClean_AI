@@ -10,7 +10,7 @@ import type {
   RunPipelineResult,
 } from "../types";
 
-export const API_BASE = "http://127.0.0.1:8000";
+export const API_BASE = "";
 
 async function handle<T>(res: Response): Promise<T> {
   if (!res.ok) {

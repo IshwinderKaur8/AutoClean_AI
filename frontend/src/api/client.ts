@@ -12,7 +12,7 @@ import type {
 } from "../types";
 
 // Must match the backend dev server; CORS in backend/app/main.py allows :5173.
-export const API_BASE = "http://127.0.0.1:8000";
+export const API_BASE = "";
 
 /** Error carrying the HTTP status and the backend's human-readable `detail`. */
 export class ApiError extends Error {
