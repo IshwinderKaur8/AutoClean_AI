@@ -26,8 +26,6 @@ plugins:
           show_root_heading: true
           show_source: false
 
-theme:
-  name: material
   custom_dir: docs/assets/theme-overrides
   features:
     - navigation.footer
